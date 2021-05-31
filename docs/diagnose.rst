@@ -95,14 +95,6 @@ For Zsh, the file to edit is ``~/.zshrc``.
 This may be related to your locale setting. See :ref:`unknown-local-diagnose`
 for a possible solution.
 
-
-☤ Pipenv does not respect dependencies in setup.py
---------------------------------------------------
-
-No, it does not, intentionally. Pipfile and setup.py serve different purposes,
-and should not consider each other by default. See :ref:`pipfile-vs-setuppy`
-for more information.
-
 ☤ Using ``pipenv run`` in Supervisor program
 ---------------------------------------------
 
